@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(112, 0, 0);
+    display: flex;
+    justify-content: center;
+
+}
+.container-main{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: white;
+    width: 95%;
+    height: 100vh;
+    gap: 15px;
+    padding: 10px;
+}
+
+header{
+    grid-column: 1 /span 2;
+    background-color: gray;
+    text-align: center;
+}
+
+aside{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+p{
+    background-color: cadetblue;
+    text-align: center;
+
+}
